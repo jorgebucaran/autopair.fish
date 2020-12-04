@@ -10,7 +10,7 @@ Automatically insert, erase, and skip matching delimiters when you type in the c
    $ echo |
    ```
 
-   > Enter: <kbd>"</kbd>
+   > Enter <kbd>"</kbd>
 
    ```console
    $ echo "|"
@@ -22,7 +22,7 @@ Automatically insert, erase, and skip matching delimiters when you type in the c
    $ echo "Hello|"
    ```
 
-   > Enter: <kbd>"</kbd>
+   > Enter <kbd>"</kbd>
 
    ```console
    $ echo "Hello"|
@@ -34,7 +34,7 @@ Automatically insert, erase, and skip matching delimiters when you type in the c
    $ echo "|"
    ```
 
-   > Enter: <kbd>Backspace</kbd>
+   > Enter <kbd>Backspace</kbd>
 
    ```console
    $ echo |
@@ -44,7 +44,7 @@ Automatically insert, erase, and skip matching delimiters when you type in the c
 
 ## Installation
 
-With [Fisher](https://github.com/jorgebucaran/fisher):
+Install with [Fisher](https://github.com/jorgebucaran/fisher):
 
 ```console
 fisher install jorgebucaran/autopair.fish
