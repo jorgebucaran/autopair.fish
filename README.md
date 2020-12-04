@@ -1,6 +1,6 @@
 # Autopair.fish
 
-> Auto-complete matching pairs for the [Fish](https://fishshell.com) command line.
+> Auto-complete matching pairs in the [Fish](https://fishshell.com) command line.
 
 Automatically insert, erase, and skip matching delimiters when you type in the command line. Hopefully. For example, pressing `{` inserts `{}`, and positions the cursor in between the braces.
 
