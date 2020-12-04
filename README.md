@@ -2,9 +2,9 @@
 
 > Auto-complete matching pairs in the [Fish](https://fishshell.com) command line.
 
-Automatically insert, erase, and skip matching delimiters when you type in the command line. Hopefully. For example, pressing `{` inserts `{}`, and positions the cursor in between the braces.
+Automatically insert, erase, and skip matching delimiters when you type in the command line. For example, pressing `{` inserts `{}`, and positions the cursor in between the braces. Hopefully.
 
-1. Complete matching pairs. Defaults: (parentheses), [brackets], {braces}, "double quotes", and 'single quotes'
+1. Complete matching pairs. Defaults: (parens), [brackets], {braces}, "quotes", and 'single quotes'
 
    ```console
    $ echo |
