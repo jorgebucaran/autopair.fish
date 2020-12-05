@@ -12,10 +12,10 @@ bind --sets-mode $mode \t _autopair_tab
 
 printf "%s\n" $autopair_pairs | while read --local left right --delimiter ""
     if test $left = $right
-        bind --sets-mode $mode $left "_autopair_insert_same \\$left"
+        bind --mode $mode $left "_autopair_insert_same \\$left"
     else
-        bind --sets-mode $mode $left "_autopair_insert_left \\$left \\$right"
-        bind --sets-mode $mode $right "_autopair_insert_right \\$right"
+        bind --mode $mode $left "_autopair_insert_left \\$left \\$right"
+        bind --mode $mode $right "_autopair_insert_right \\$right"
     end
 end
 
