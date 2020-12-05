@@ -16,19 +16,7 @@ Automatically insert, erase, and skip matching delimiters when you type in the c
   $ echo "⎪"
   ```
 
-- Skip over matched pairs:
-
-  ```console
-  $ echo "Hey⎪"
-  ```
-
-  <kbd>"</kbd> 🥊
-
-  ```console
-  $ echo "Hey"⎪
-  ```
-
-- Auto-delete pairs on backspace:
+- Erase pairs on backspace:
 
   ```console
   $ echo "Hey⎪"
@@ -44,6 +32,18 @@ Automatically insert, erase, and skip matching delimiters when you type in the c
 
   ```console
   $ echo ⎪
+  ```
+
+- Skip over matched pairs:
+
+  ```console
+  $ echo "Hey⎪"
+  ```
+
+  <kbd>"</kbd> 🥊
+
+  ```console
+  $ echo "Hey"⎪
   ```
 
 ## Installation
