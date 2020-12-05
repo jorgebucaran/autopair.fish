@@ -6,9 +6,9 @@ test $fish_key_bindings = fish_default_key_bindings \
     && set --local mode default \
     || set --local mode insert
 
-bind --sets-mode $mode \177 _autopair_backspace # macOS ⌫
-bind --sets-mode $mode \b _autopair_backspace
-bind --sets-mode $mode \t _autopair_tab
+bind --mode $mode \177 _autopair_backspace # macOS ⌫
+bind --mode $mode \b _autopair_backspace
+bind --mode $mode \t _autopair_tab
 
 printf "%s\n" $autopair_pairs | while read --local left right --delimiter ""
     if test $left = $right
