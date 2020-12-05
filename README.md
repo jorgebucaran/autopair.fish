@@ -2,7 +2,7 @@
 
 > Auto-complete matching pairs in the [Fish](https://fishshell.com) command line.
 
-Automatically insert, erase, and skip matching delimiters when you type in the command line.  Supports <samp>(</samp> <samp>)</samp>, <samp>[</samp> <samp>]</samp>, <samp>{</samp> <samp>}</samp>, <samp>"</samp> <samp>"</samp>, and <samp>'</samp> <samp>'</samp>. For example, pressing _`(`_ inserts _`()`_ and positions the cursor in between the parentheses. Hopefully.
+Automatically insert, erase, and skip matching delimiters when you type in the command line.  Supports <samp>(</samp> <samp>)</samp>, <samp>[</samp> <samp>]</samp>, <samp>{</samp> <samp>}</samp>, <samp>"</samp> <samp>"</samp>, and <samp>'</samp> <samp>'</samp>. For example, pressing <samp>(</samp> inserts <samp>()</samp> and positions the cursor in between the parentheses. Hopefully.
 
 - Insert matching pairs.
 
