@@ -1,46 +1,44 @@
-# Autopair.fish
+# autopair.fish
 
 > Auto-complete matching pairs in the [Fish](https://fishshell.com) command line.
 
-Automatically insert, erase, and skip matching delimiters when you type in the command line. For example, pressing `{` inserts `{}`, and positions the cursor in between the braces. Hopefully.
+Automatically insert, erase, and skip matching delimiters when you type in the command line.  Supports <samp>(</samp> <samp>)</samp>, <samp>[</samp> <samp>]</samp>, <samp>{</samp> <samp>}</samp>, <samp>"</samp> <samp>"</samp>, and <samp>'</samp> <samp>'</samp>. For example, pressing _`(`_ inserts _`()`_ and positions the cursor in between the parentheses. Hopefully.
 
-1. Complete matching pairs. Defaults: (parens), [brackets], {braces}, "quotes", and 'single quotes'
+- Insert matching pairs.
 
-   ```console
-   $ echo |
-   ```
+  ```console
+  $ echo ⎢ # Let's say ⎪ is the cursor!
+  ```
 
-   > Enter <kbd>"</kbd>
+  <kbd>"</kbd> 🥊
 
-   ```console
-   $ echo "|"
-   ```
+  ```console
+  $ echo "⎪"
+  ```
 
-2. Skips over matched pairs:
+- Skip over matched pairs:
 
-   ```console
-   $ echo "Hello|"
-   ```
+  ```console
+  $ echo "Hello⎪"
+  ```
 
-   > Enter <kbd>"</kbd>
+  <kbd>"</kbd> 🥊
 
-   ```console
-   $ echo "Hello"|
-   ```
+  ```console
+  $ echo "Hello"⎪
+  ```
 
-3. Auto-deletes pairs on backspace:
+- Auto-delete pairs on backspace:
 
-   ```console
-   $ echo "|"
-   ```
+  ```console
+  $ echo "⎪"
+  ```
 
-   > Enter <kbd>Backspace</kbd>
+  <kbd>Backspace</kbd> 🥊
 
-   ```console
-   $ echo |
-   ```
-
-   It's like a toy text editor for your command line. You'll wonder why you didn't get this sooner.
+  ```console
+  $ echo ⎪
+  ```
 
 ## Installation
 
@@ -53,3 +51,4 @@ fisher install jorgebucaran/autopair.fish
 ## License
 
 [MIT](LICENSE.md)
+
