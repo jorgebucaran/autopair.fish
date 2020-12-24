@@ -1,3 +1,5 @@
+test -z "$fish_key_bindings" && exit
+
 set --global autopair_left "(" "[" "{" '"' "'"
 set --global autopair_right ")" "]" "}" '"' "'"
 set --global autopair_pairs "()" "[]" "{}" '""' "''"
