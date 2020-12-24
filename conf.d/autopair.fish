@@ -1,8 +1,9 @@
+test -z "$fish_key_bindings" && test
+
 set --global autopair_left "(" "[" "{" '"' "'"
 set --global autopair_right ")" "]" "}" '"' "'"
 set --global autopair_pairs "()" "[]" "{}" '""' "''"
 
-test -z "$fish_key_bindings" && set -l fish_key_bindings fish_default_key_bindings
 test $fish_key_bindings = fish_default_key_bindings \
     && set --local mode default \
     || set --local mode insert
