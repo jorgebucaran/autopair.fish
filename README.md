@@ -1,8 +1,8 @@
 # autopair.fish
 
-> Auto-complete matching pairs in the [Fish](https://fishshell.com) command-line.
+> Auto-complete matching pairs in the [Fish](https://fishshell.com) command line.
 
-Automatically insert, erase, and skip matching pairs as you type in the command-line: <samp>(</samp> <samp>)</samp>, <samp>[</samp> <samp>]</samp>, <samp>{</samp> <samp>}</samp>, <samp>"</samp> <samp>"</samp>, and <samp>'</samp> <samp>'</samp>. E.g., pressing <samp>(</samp> inserts <samp>( )</samp> and positions the cursor in between the parentheses. Hopefully.
+Automatically insert, erase, and skip matching pairs as you type in the command-line: `()`, `[]`, `{}`, `""`, and `''`. E.g., pressing `(` inserts `()` and positions the cursor in between the parentheses. Hopefully.
 
 - Insert matching pairs.
 
