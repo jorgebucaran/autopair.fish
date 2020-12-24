@@ -9,8 +9,8 @@ function _autopair_insert_same -a key
         commandline --insert -- $key
 
         if test $index -lt 1 \
-            || contains -- (string sub --start $index --length 1 -- "$buffer") "" " " $autopair_left \
-            && contains -- $next "" " " $autopair_right
+                || contains -- (string sub --start $index --length 1 -- "$buffer") "" " " $autopair_left \
+                && contains -- $next "" " " $autopair_right
             commandline --insert -- $key
             commandline --cursor (math $index + 1)
         end
