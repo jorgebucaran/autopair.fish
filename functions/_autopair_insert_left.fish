@@ -1,4 +1,4 @@
-function _autopair_insert_left -a left right
+function _autopair_insert_left --argument-names left right
     set --local buffer (commandline)
     set --local before (commandline --cut-at-cursor)
 

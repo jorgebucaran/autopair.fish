@@ -1,4 +1,4 @@
-function _autopair_insert_right -a key
+function _autopair_insert_right --argument-names key
     set --local buffer (commandline)
     set --local before (commandline --cut-at-cursor)
 

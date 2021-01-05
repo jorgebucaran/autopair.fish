@@ -1,4 +1,4 @@
-function _autopair_insert_same -a key
+function _autopair_insert_same --argument-names key
     set --local buffer (commandline)
     set --local index (commandline --cursor)
     set --local next (string sub --start=(math $index + 1) --length=1 -- "$buffer")
