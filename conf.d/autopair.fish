@@ -1,4 +1,4 @@
-set --query fish_key_bindings[1] || exit
+status is-interactive || exit
 
 set --global autopair_left "(" "[" "{" '"' "'"
 set --global autopair_right ")" "]" "}" '"' "'"
