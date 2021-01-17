@@ -5,6 +5,8 @@ set --global autopair_right ")" "]" "}" '"' "'"
 set --global autopair_pairs "()" "[]" "{}" '""' "''"
 
 function _autopair_fish_key_bindings --on-variable fish_key_bindings
+    set --query fish_key_bindings[1] || return
+
     test $fish_key_bindings = fish_default_key_bindings &&
         set --local mode default insert ||
         set --local mode insert default
