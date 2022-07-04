@@ -56,7 +56,6 @@ Automatically insert, erase, and skip matching pairs as you type in the command-
 
   ```console
   $ echo "$fish_color_⎪
-  "$fish_bind_mode              (Variable: default)
   "$fish_color_autosuggestion   (Variable: '555' 'brblack')
   "$fish_color_cancel           (Variable: -r)
   "$fish_color_command          (Variable: blue)
