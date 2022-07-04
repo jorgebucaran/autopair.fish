@@ -46,6 +46,24 @@ Automatically insert, erase, and skip matching pairs as you type in the command-
   $ echo "Hey"⎪
   ```
 
+- Gracefully handle <kbd>Tab</kbd> completions for variables while inside double quotes.
+
+  ```console
+  $ echo "$fish_color_⎪"
+  ```
+
+  <kbd>Tab</kbd> 🥊
+
+  ```console
+  $ echo "$fish_color_⎪
+  "$fish_bind_mode              (Variable: default)
+  "$fish_color_autosuggestion   (Variable: '555' 'brblack')
+  "$fish_color_cancel           (Variable: -r)
+  "$fish_color_command          (Variable: blue)
+  "$fish_color_comment          (Variable: red)
+  ...
+  ```
+
 ## Installation
 
 Install with [Fisher](https://github.com/jorgebucaran/fisher):
